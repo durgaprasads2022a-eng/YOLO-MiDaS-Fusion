@@ -34,6 +34,28 @@ The inferred images will be stored inside `output` folder
 
 ![result](assets/results.png)
 =======
+## Features
+
+- Shared **ResNeXt101** feature extractor
+- **YOLOv3** object detection
+- **MiDaS** monocular depth estimation
+- Suitable for autonomous navigation research and experimentation
+- Supports training on custom datasets
+
+## Repository Structure
+
+```text
+.
+├── cfg/
+├── data/
+├── input/
+├── model/
+├── output/
+├── weights/
+├── detect.py
+├── train.py
+└── README.md
+
 # YOLO-MiDaS-Fusion-
 Unified Object Detection and Monocular Depth Estimation for Autonomous Navigation using a shared ResNeXt101 backbone
 >>>>>>> 6d506833449826818a5956ec73fa9030cff54680
