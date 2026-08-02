@@ -3,7 +3,6 @@
 
 Combine YOLOv3 with MiDaS with a single Resnext101 backbone. The idea is to use a single feature extractor for two different applications, in this case, Object detection and Monocular Depth Estimation.
 
-
 ![structure](assets/structure.PNG)
 
 The model architecture change can be seen in `model/mde_net.py`
