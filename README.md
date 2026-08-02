@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # yolo-midas for Autonomous Navigation
 
 Combine YOLOv3 with MiDaS with a single Resnext101 backbone. The idea is to use a single feature extractor for two different applications, in this case, Object detection and Monocular Depth Estimation.
@@ -34,3 +35,7 @@ The inferred images will be stored inside `output` folder
 ## Inference Result Sample
 
 ![result](assets/results.png)
+=======
+# YOLO-MiDaS-Fusion-
+Unified Object Detection and Monocular Depth Estimation for Autonomous Navigation using a shared ResNeXt101 backbone
+>>>>>>> 6d506833449826818a5956ec73fa9030cff54680
